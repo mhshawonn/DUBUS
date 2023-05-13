@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.BUS">
+   <children>
+      <AnchorPane prefHeight="41.0" prefWidth="602.0" style="-fx-background-color: #725BF6;">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="36.0" layoutX="8.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/dash.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="home" layoutX="48.0" layoutY="8.0" mnemonicParsing="false" onAction="#home" prefHeight="25.0" prefWidth="55.0" text="Home" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="525.0" layoutY="361.0" mnemonicParsing="false" text="NEXT" />
+      <Label layoutX="32.0" layoutY="138.0" prefHeight="32.0" prefWidth="132.0" text="ISHA KHA" />
+      <Label layoutX="32.0" layoutY="184.0" prefHeight="32.0" prefWidth="132.0" text="KHONIKA" />
+      <Label layoutX="32.0" layoutY="222.0" prefHeight="32.0" prefWidth="132.0" text="CHAITALY" />
+      <Label layoutX="32.0" layoutY="254.0" prefHeight="32.0" prefWidth="132.0" text="TARANGA" />
+      <Label layoutX="32.0" layoutY="292.0" prefHeight="32.0" prefWidth="132.0" text="BAISHAKHI" />
+      <Label layoutX="289.0" layoutY="138.0" prefHeight="32.0" prefWidth="132.0" text="ULLASH" />
+      <Label layoutX="289.0" layoutY="178.0" prefHeight="32.0" prefWidth="132.0" text="SRABON" />
+      <Label layoutX="289.0" layoutY="216.0" prefHeight="32.0" prefWidth="132.0" text="BASANTA" />
+      <Label layoutX="289.0" layoutY="254.0" prefHeight="32.0" prefWidth="132.0" text="KINCHIT" />
+      <Label layoutX="289.0" layoutY="292.0" prefHeight="32.0" prefWidth="132.0" text="MOITRI" />
+   </children>
+</AnchorPane>
